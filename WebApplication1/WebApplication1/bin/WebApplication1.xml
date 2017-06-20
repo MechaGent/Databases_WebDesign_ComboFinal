@@ -1,0 +1,709 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+WebApplication1
+</name>
+</assembly>
+<members>
+<member name="T:WebApplication1.My.MyWebExtension">
+ <summary>
+ Module used to define the properties that are available in the My Namespace for Web projects.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:WebApplication1.My.MyWebExtension.Computer">
+ <summary>
+ Returns information about the host computer.
+ </summary>
+</member>
+<member name="P:WebApplication1.My.MyWebExtension.User">
+ <summary>
+ Returns information for the current Web user.
+ </summary>
+</member>
+<member name="P:WebApplication1.My.MyWebExtension.Request">
+ <summary>
+ Returns Request object.
+ </summary>
+</member>
+<member name="P:WebApplication1.My.MyWebExtension.Response">
+ <summary>
+ Returns Response object.
+ </summary>
+</member>
+<member name="P:WebApplication1.My.MyWebExtension.Log">
+ <summary>
+ Returns the Asp log object.
+ </summary>
+</member>
+<member name="T:WebApplication1.EscDatabasesFinalProjectDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:WebApplication1.EscDatabasesFinalProjectDataSet.AddressesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:WebApplication1.EscDatabasesFinalProjectDataSet.Credit_CardsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:WebApplication1.EscDatabasesFinalProjectDataSet.CustomerOrdersDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:WebApplication1.EscDatabasesFinalProjectDataSet.CustomersDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:WebApplication1.EscDatabasesFinalProjectDataSet.OrdersDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:WebApplication1.EscDatabasesFinalProjectDataSet.PartialOrdersDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:WebApplication1.EscDatabasesFinalProjectDataSet.ProductColorsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:WebApplication1.EscDatabasesFinalProjectDataSet.ProductDataDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:WebApplication1.EscDatabasesFinalProjectDataSet.WarehousesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:WebApplication1.EscDatabasesFinalProjectDataSet.WarehouseStocksDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:WebApplication1.EscDatabasesFinalProjectDataSet.AddressesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:WebApplication1.EscDatabasesFinalProjectDataSet.Credit_CardsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:WebApplication1.EscDatabasesFinalProjectDataSet.CustomerOrdersRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:WebApplication1.EscDatabasesFinalProjectDataSet.CustomersRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:WebApplication1.EscDatabasesFinalProjectDataSet.OrdersRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:WebApplication1.EscDatabasesFinalProjectDataSet.PartialOrdersRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:WebApplication1.EscDatabasesFinalProjectDataSet.ProductColorsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:WebApplication1.EscDatabasesFinalProjectDataSet.ProductDataRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:WebApplication1.EscDatabasesFinalProjectDataSet.WarehousesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:WebApplication1.EscDatabasesFinalProjectDataSet.WarehouseStocksRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:WebApplication1.EscDatabasesFinalProjectDataSet.AddressesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:WebApplication1.EscDatabasesFinalProjectDataSet.Credit_CardsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:WebApplication1.EscDatabasesFinalProjectDataSet.CustomerOrdersRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:WebApplication1.EscDatabasesFinalProjectDataSet.CustomersRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:WebApplication1.EscDatabasesFinalProjectDataSet.OrdersRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:WebApplication1.EscDatabasesFinalProjectDataSet.PartialOrdersRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:WebApplication1.EscDatabasesFinalProjectDataSet.ProductColorsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:WebApplication1.EscDatabasesFinalProjectDataSet.ProductDataRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:WebApplication1.EscDatabasesFinalProjectDataSet.WarehousesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:WebApplication1.EscDatabasesFinalProjectDataSet.WarehouseStocksRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:WebApplication1.EscDatabasesFinalProjectDataSetTableAdapters.AddressesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:WebApplication1.EscDatabasesFinalProjectDataSetTableAdapters.Credit_CardsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:WebApplication1.EscDatabasesFinalProjectDataSetTableAdapters.CustomerOrdersTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:WebApplication1.EscDatabasesFinalProjectDataSetTableAdapters.CustomersTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:WebApplication1.EscDatabasesFinalProjectDataSetTableAdapters.OrdersTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:WebApplication1.EscDatabasesFinalProjectDataSetTableAdapters.PartialOrdersTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:WebApplication1.EscDatabasesFinalProjectDataSetTableAdapters.ProductColorsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:WebApplication1.EscDatabasesFinalProjectDataSetTableAdapters.ProductDataTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:WebApplication1.EscDatabasesFinalProjectDataSetTableAdapters.WarehousesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:WebApplication1.EscDatabasesFinalProjectDataSetTableAdapters.WarehouseStocksTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:WebApplication1.EscDatabasesFinalProjectDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:WebApplication1.EscDatabasesFinalProjectDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(WebApplication1.EscDatabasesFinalProjectDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:WebApplication1.EscDatabasesFinalProjectDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(WebApplication1.EscDatabasesFinalProjectDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:WebApplication1.EscDatabasesFinalProjectDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(WebApplication1.EscDatabasesFinalProjectDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:WebApplication1.EscDatabasesFinalProjectDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:WebApplication1.EscDatabasesFinalProjectDataSetTableAdapters.TableAdapterManager.UpdateAll(WebApplication1.EscDatabasesFinalProjectDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:WebApplication1.EscDatabasesFinalProjectDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:WebApplication1.EscDatabasesFinalProjectDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="F:WebApplication1.Homepage._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:WebApplication1.Homepage._LoginButton">
+<summary>
+LoginButton control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:WebApplication1.Homepage._CreateNewUserButton">
+<summary>
+CreateNewUserButton control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:WebApplication1.LoginPage._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:WebApplication1.LoginPage._UsernameBox">
+<summary>
+UsernameBox control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:WebApplication1.LoginPage._PasswordBox">
+<summary>
+PasswordBox control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:WebApplication1.LoginPage._LoginButton">
+<summary>
+LoginButton control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:WebApplication1.LoginPage._ErrorsLabel">
+<summary>
+ErrorsLabel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:WebApplication1.test_addOrder._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:WebApplication1.test_addOrder._ShapeDropDownList">
+<summary>
+ShapeDropDownList control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:WebApplication1.test_addOrder._ColorDropDownList">
+<summary>
+ColorDropDownList control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:WebApplication1.test_addOrder._WidgetDisplay_Cube">
+<summary>
+WidgetDisplay_Cube control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:WebApplication1.test_addOrder._WidgetDisplay_Sphere">
+<summary>
+WidgetDisplay_Sphere control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:WebApplication1.test_addOrder._QuantBox">
+<summary>
+QuantBox control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:WebApplication1.test_addOrder._BadQuantityFlag">
+<summary>
+BadQuantityFlag control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:WebApplication1.test_addOrder._UnitPriceBox">
+<summary>
+UnitPriceBox control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:WebApplication1.test_addOrder._PriceSubtotal">
+<summary>
+PriceSubtotal control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:WebApplication1.test_addOrder._AddToCart">
+<summary>
+AddToCart control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:WebApplication1.test_addOrder._SubmitOrder">
+<summary>
+SubmitOrder control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:WebApplication1.test_addOrder._BadSubmitOrderFlag">
+<summary>
+BadSubmitOrderFlag control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:WebApplication1.test_addOrder._ShapesListBox">
+<summary>
+ShapesListBox control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:WebApplication1.test_addOrder._ColorsListBox">
+<summary>
+ColorsListBox control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:WebApplication1.test_addOrder._QuantityListBox">
+<summary>
+QuantityListBox control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:WebApplication1.test_addOrder._UnitPriceListBox">
+<summary>
+UnitPriceListBox control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:WebApplication1.test_addOrder._Subtotals">
+<summary>
+Subtotals control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:WebApplication1.test_addOrder._CurrentTotal">
+<summary>
+CurrentTotal control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:WebApplication1.test_addOrder._ComboKeyStorage">
+<summary>
+ComboKeyStorage control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:WebApplication1.WebForm2._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:WebApplication1.WebForm2._NameBox">
+<summary>
+NameBox control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:WebApplication1.WebForm2._RequiresNameLabel">
+<summary>
+RequiresNameLabel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:WebApplication1.WebForm2._DobBox">
+<summary>
+DobBox control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:WebApplication1.WebForm2._DobRequired">
+<summary>
+DobRequired control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:WebApplication1.WebForm2._EmailBox">
+<summary>
+EmailBox control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:WebApplication1.WebForm2._AddressBox">
+<summary>
+AddressBox control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:WebApplication1.WebForm2._BadAddressLabel">
+<summary>
+BadAddressLabel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:WebApplication1.WebForm2._CreditCardFrontBox">
+<summary>
+CreditCardFrontBox control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:WebApplication1.WebForm2._BadFrontNumberLabel">
+<summary>
+BadFrontNumberLabel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:WebApplication1.WebForm2._ExpirationDateBox">
+<summary>
+ExpirationDateBox control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:WebApplication1.WebForm2._BadExpirDateLabel">
+<summary>
+BadExpirDateLabel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:WebApplication1.WebForm2._CreditCardBackBox">
+<summary>
+CreditCardBackBox control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:WebApplication1.WebForm2._BadBackNumLabel">
+<summary>
+BadBackNumLabel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:WebApplication1.WebForm2._UsernameBox">
+<summary>
+UsernameBox control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:WebApplication1.WebForm2._BadUsernameLabel">
+<summary>
+BadUsernameLabel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:WebApplication1.WebForm2._PasswordsErrorLabel">
+<summary>
+PasswordsErrorLabel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:WebApplication1.WebForm2._PasswordBox">
+<summary>
+PasswordBox control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:WebApplication1.WebForm2._ConfirmPasswordBox">
+<summary>
+ConfirmPasswordBox control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:WebApplication1.WebForm2._CreateButton">
+<summary>
+CreateButton control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+</members>
+</doc>
